@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Win10
+Description=Win10 Theme
+Author=CrashAndEddie
+Copyright=(c) 2020
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=win10.jpg
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=crash.eddie123@gmail.com
+Theme-Id=win10
+Theme-API=2.0
