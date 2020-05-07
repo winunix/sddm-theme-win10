@@ -109,6 +109,7 @@ Rectangle {
                     anchors.centerIn: parent
                     color: "white"
                     timeFont.family: "Oxygen"
+                    dateFont.pointSize: 15
                 }
             }
 
