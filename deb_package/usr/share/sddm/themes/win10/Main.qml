@@ -196,7 +196,7 @@ Rectangle {
             id: actionBar
             anchors.top: parent.top;
             anchors.horizontalCenter: parent.horizontalCenter
-            width: parent.width; height: 40
+            width: parent.width; height: 32
             //visible: primaryScreen
 
             Row {
@@ -216,7 +216,7 @@ Rectangle {
 
                 ComboBox {
                     id: session
-                    width: 245
+                    width: 150
                     anchors.verticalCenter: parent.verticalCenter
 
                     arrowIcon: "angle-down.png"
@@ -227,26 +227,6 @@ Rectangle {
                     font.pixelSize: 14
 
                     KeyNavigation.backtab: nextUser; KeyNavigation.tab: layoutBox
-                }
-
-                Text {
-                    height: parent.height
-                    anchors.verticalCenter: parent.verticalCenter
-
-                    text: textConstants.layout
-                    font.pixelSize: 16
-                    verticalAlignment: Text.AlignVCenter
-                }
-
-                LayoutBox {
-                    id: layoutBox
-                    width: 90
-                    anchors.verticalCenter: parent.verticalCenter
-                    font.pixelSize: 14
-
-                    arrowIcon: "angle-down.png"
-
-                    KeyNavigation.backtab: session; KeyNavigation.tab: btnShutdown
                 }
             }
 
